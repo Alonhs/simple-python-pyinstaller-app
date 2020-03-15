@@ -1,0 +1,6 @@
+version: '3'
+services: pyinstaller
+build: .
+command: python add2vals
+    volumes:
+      - .:/App
